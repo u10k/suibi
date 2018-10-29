@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+a,a:focus,a:active{
+  text-decoration: none;
+  color: #730a11;
+}
+@keyframes myfirst{
+  0% {background:#ffe618;}
+  50% {background:#ff6113;}
+  100% {background:#ffe618;}
+}
+#special{
+  min-width: 1112px;
+  height: 1019+1129+1271px;
+  .item1{
+    background: url(images/1_01.jpg) no-repeat center;
+    height: 1019px;
+    text-align: center;
+    position: relative;
+    .center{
+      width: 1112px;
+      margin: 0 auto;
+      a{
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 600;
+        margin: 908px 3% 0;
+        width: 17.5%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 24px;
+        text-align: center;
+        animation: myfirst 5s infinite;
+      }
+      a:nth-child(2){
+        margin: 908px 10% 0 9%;
+      }
+      a:nth-child(3){
+        margin: 908px 4% 0;
+      }
+    }
+  }
+  .item2{
+    background: url(images/1_022.jpg) no-repeat center;
+    height: 1129px;
+    text-align: center;
+    position: relative;
+    .center{
+      width: 1112px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      a{
+        display: inline-block;
+        margin: 482px 0px 42px 35%;
+        font-size: 17px;
+        font-weight: 600;
+        width: 12.5%;
+        height: 40px;
+        line-height: 39px;
+        border-radius: 24px;
+        text-align: center;
+        animation: myfirst 5s infinite;
+      }
+      a:nth-child(2){
+        margin-top: 285px;
+      }
+    }
+  }
+  .item3{
+    background: url(images/1_03.jpg) no-repeat center;
+    height: 1271px;
+    text-align: center;
+    position: relative;
+    >a{
+      position: absolute;
+      display: inline-block;
+      top: 10%;
+      left: 24%;
+      width: 14%;
+      height: 30%;
+    }
+    >a:nth-child(2){
+      left: 43%;
+    }
+    >a:nth-child(3){
+       left: 62.2%;
+     }
+    >a:nth-child(4){
+      top: 43.5%;
+      left: 24%;
+    }
+    >a:nth-child(5){
+      top: 43.5%;
+      left: 43%;
+    }
+    >a:nth-child(6){
+      top: 43.5%;
+      left: 62.2%;
+    }
+    .center{
+      width: 1112px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      a{
+        display: inline-block;
+        margin: 1107px 3% 0 3%;
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        text-shadow: 2px 2px 3px #333;
+        width: 28.5%;
+        height: 69px;
+        line-height: 65px;
+        border-radius: 38px;
+        text-align: center;
+        animation: myfirst 5s infinite;
+      }
+    }
+  }
+}
+/*咨询框*/
+.floatRight {
+  width: 150px;
+  height: 535px;
+  _height: 554px;
+  float: right;
+  display: none;
+  position: fixed;
+  _position: absolute;
+  right: 0;
+  top: 120px;
+  z-index: 999;
+  background: url(images/consult.png) no-repeat -7px -3px;
+}
+.online {
+  width: 145px;
+  height: 43px;
+  line-height: 136px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #FDFDFD;
+  text-align: center;
+  margin-top: 25px;
+}
+.floatRightIconA {
+  margin-left: 15px;
+
+}
+
+.floatRightIconA a {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 52px;
+  margin-top: 2px;
+  _margin-top: 8px;
+}
+
+.zixunClick a:hover,
+.waitInput:hover,
+.floatRightIconA a:hover {
+  opacity: 0.8;
+  filter:Alpha(opacity=80);
+}
+.wwLeftC {
+  width: 110px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -219px -127px;
+  height: 55px;
+  _height: 36px;
+
+}
+
+.wwLeftC:hover {
+  color: #d84620;
+}
+
+.qqLeftC {
+  width: 110px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -219px -238px;
+  height: 55px;
+  _height: 36px;
+}
+
+.qqLeftC:hover {
+  color: #005ba2;
+}
+.qqLeftD {
+  width: 112px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -187px -94px;
+  height: 45px;
+  _height:36px;
+}
+
+.qqLeftD:hover {
+  color: #005ba2;
+}
+
+.qqLeftE {
+  width: 112px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -187px -197px;
+  height: 45px;
+  _height:36px;
+}
+.qqLeftE:hover {
+  color: #005ba2;
+}
+
+.wwLeftLC {
+  width: 119px;
+  color: #333;
+}
+
+.wwLeftLC:hover {
+  width: 119px;
+  color: #333;
+}
+
+.qqLeftLC {
+  width: 119px;
+  color: #333;
+}
+
+.qqLeftLC:hover {
+  color: #333;
+}
+
+.companyNum2Div {
+  padding: 0 12px;
+  line-height: 22px;
+  text-align: center;
+  margin: 60px 5px 0 auto;
+}
+.companyNum2Div p {
+  font-size: 12px;
+  color: #f8f515;
+}
+.companyNum2Div .companyNum2 {
+  font-size: 15px;
+  font-family: "微软雅黑";
+  /*color: #fff600;*/
+  color: #fff;
+  font-weight: bold;
+}
+.floatRight .kefu-back{
+  margin-top: 28px;
+  text-align: center;
+  color: #f8f515;
+}
+
+.floatRight .kefu-top{
+  margin-top: 13px;
+  text-align: center;
+  color: #ffffff;
+}

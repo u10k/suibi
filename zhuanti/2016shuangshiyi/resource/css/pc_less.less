@@ -1,0 +1,726 @@
+html, body, div, p, li, ul {
+  padding: 0;
+  margin: 0;
+  font-family: "微软雅黑", "宋体", "幼圆";
+}
+
+html {
+  font-size: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  border: none;
+}
+
+a:hover {
+  opacity: 0.88;
+}
+
+body {
+  background: #fcf3f4;
+}
+
+.pc-min-width { /*PC最小宽度*/
+  /*min-width: 1280px;*/
+}
+
+.z-lv2 {
+  position: absolute;
+  z-index: 20;
+}
+
+.z-lv3 {
+  position: absolute;
+  z-index: 30;
+}
+
+#main {
+  display: block;
+}
+
+#main > .item {
+  display: block;
+  position: relative;
+}
+
+.colorRed {
+  color: #ed5b40;
+}
+
+#main img.bg {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titleRed {
+  font-size: 0.28rem;
+  font-weight: 600;
+  color: #e9583d;
+}
+
+.titleWhite {
+  font-size: 0.28rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.titleYellow {
+  font-size: 0.28rem;
+  font-weight: 600;
+  color: #f0d56e;
+}
+
+.pc-min-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .item {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    clear: both;
+  }
+  #item-1 {
+    height: 8.82rem;
+    background: url("../img/xz/bj/banner_01.jpg");
+    background-size: 100% 100%;
+  }
+  #item-2 {
+    height: 9.45rem;
+    background: url("../img/xz/bj/banner_02.jpg");
+    background-size: 100% 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //top:4.02rem;
+    .item_2_1 {
+      background: url(../img/xz/1.png);
+      display: flex;
+      flex-direction: row;
+      width: 11.44rem;
+      height: 3rem;
+      background-position: -366px -166px;
+      position: relative;
+      margin-top: 34px;
+      ul {
+        position: absolute;
+        li {
+          margin: 0.06rem 0;
+          color: #fed076;
+        }
+      }
+      ul:nth-child(1) {
+        top: 0.6rem;
+        left: 3.22rem;
+        li {
+          background: #7e693a;
+          font-size: 0.16rem;
+          font-weight: 600;
+          width: 1rem;
+          text-align: center;
+          border-radius: 0.14rem;
+          height: 0.28rem;
+          line-height: 0.28rem;
+          margin-left: 0.26rem;
+        }
+        .left_1 {
+          margin-left: 0;
+          background: #1b9acb;
+          font-size: 0.27rem;
+          font-weight: 600;
+          width: 1.5rem;
+          text-align: center;
+          border-radius: 0.14rem;
+          margin-bottom: 0.3rem;
+          height: 0.33rem;
+          line-height: 0.33rem;
+        }
+      }
+      ul:nth-child(2) {
+        top: 0.6rem;
+        left: 7.4rem;
+        li {
+          background: #ec5b3e;
+          font-size: 0.16rem;
+          font-weight: 600;
+          width: 2.3rem;
+          text-align: left;
+          border-radius: 0.1rem;
+          padding-left: 0.1rem;
+          height: 0.28rem;
+          line-height: 0.28rem;
+        }
+      }
+      ul:nth-child(3) {
+        top: 0rem;
+        left: 5.46rem;
+        li {
+          display: inline-block;
+          color: #fff;
+        }
+        li:nth-child(1) {
+          font-weight: 600;
+          font-size: 0.25rem;
+        }
+        a:nth-child(2){
+          display: inline-block;
+          height: 0.4rem;
+          width: 1.66rem;
+          margin-left: 0.14rem;
+          li{
+            margin-left: 0.55rem;
+            font-size: 0.18rem;
+          }
+        }
+      }
+      a.item_2_2 {
+        position: absolute;
+        top: 3.3rem;
+        left: 8.5rem;
+        width: 2.3rem;
+        height: 0.5rem;
+        background: #1c9aca;
+        border-radius: 10px;
+        box-shadow: 4px 3px 0px #5495ba;
+        line-height: 0.5rem;
+        color: #fff;
+        font-size: 0.24rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    .item_2_3 {
+      background: url(../img/xz/2.png);
+      background-position: -311px -147px;
+      top: 1.43rem;
+      display: flex;
+      flex-direction: row;
+      width: 11.44rem;
+      height: 3rem;
+      position: relative;
+      ul {
+        position: absolute;
+        li {
+          margin: 0.06rem 0;
+          color: #fed076;
+        }
+      }
+      ul:nth-child(1) {
+        top: 0.6rem;
+        left: 3.22rem;
+        li {
+          background: #7e693a;
+          font-size: 0.16rem;
+          font-weight: 600;
+          width: 1rem;
+          text-align: center;
+          border-radius: 0.14rem;
+          height: 0.28rem;
+          line-height: 0.28rem;
+          margin-left: 0.26rem;
+        }
+        .left_1 {
+          margin-left: 0;
+          background: #1b9acb;
+          font-size: 0.27rem;
+          font-weight: 600;
+          width: 1.5rem;
+          text-align: center;
+          border-radius: 0.14rem;
+          margin-bottom: 0.3rem;
+          height: 0.33rem;
+          line-height: 0.33rem;
+        }
+      }
+      ul:nth-child(2) {
+        top: 0.6rem;
+        left: 7.4rem;
+        li {
+          background: #ec5b3e;
+          font-size: 0.16rem;
+          font-weight: 600;
+          width: 2.3rem;
+          text-align: left;
+          border-radius: 0.1rem;
+          padding-left: 0.1rem;
+          height: 0.28rem;
+          line-height: 0.28rem;
+        }
+      }
+      ul:nth-child(3) {
+        top: 0.04rem;
+        left: 5.56rem;
+        li {
+          display: inline-block;
+          color: #fff;
+        }
+        li:nth-child(1) {
+          font-weight: 600;
+          font-size: 0.25rem;
+        }
+        a:nth-child(2){
+          display: inline-block;
+          height: 0.4rem;
+          width: 1.66rem;
+          margin-left: 0.14rem;
+          li{
+            margin-left: 0.55rem;
+            font-size: 0.18rem;
+          }
+        }
+      }
+      a.item_2_4 {
+        position: absolute;
+        top: 3.3rem;
+        left: 8.5rem;
+        width: 2.3rem;
+        height: 0.5rem;
+        background: #1c9aca;
+        border-radius: 10px;
+        box-shadow: 4px 3px 0px #5495ba;
+        line-height: 0.5rem;
+        color: #fff;
+        font-size: 0.24rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+  #item-3 {
+    height: 9.5rem;
+    background: url("../img/xz/bj/banner_03.jpg");
+    background-size: 100% 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    > p:nth-child(1) {
+      margin-top: 0.75rem;
+    }
+    > p:nth-child(3) {
+      margin-top: 0.29rem;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 11rem;
+      margin-top: 0.57rem;
+      li {
+        position: relative;
+        width: 2.85rem;
+        height: 2.6rem;
+        margin-right: 1.17rem;
+        margin-bottom: 0.36rem;
+        border: 0.001rem solid #fff;
+        border-radius: 0.12rem;
+        div {
+          height: 1.6rem;
+          width: 1.8rem;
+          margin: 0.12rem auto;
+        }
+        p {
+          position: absolute;
+          border-radius: 0.12rem;
+          padding-left: 0.62rem;
+          left: 0rem;
+          bottom: 0;
+          height: 0.75rem;
+          line-height: 0.75rem;
+          width: 2.23rem;
+          background: #fff;
+          font-size: 0.18rem;
+          color: #135f7f;
+          font-weight: 600;
+          span {
+            display: block;
+            background: url(../img/xz/bigSprite.png);
+            background-position: 0px -189px;
+            width: 0.6rem;
+            height: 0.7rem;
+            position: absolute;
+            top: 0;
+            left: 1.8rem;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            line-height: 49px;
+          }
+        }
+      }
+      li:nth-child(1) {
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: 18px 16px;
+        }
+      }
+      li:nth-child(2) {
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: -156px 25px;
+        }
+      }
+      li:nth-child(3) {
+        margin-right: 0;
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: -317px 23px;
+        }
+      }
+      li:nth-child(4) {
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: -518px 23px;
+        }
+      }
+      li:nth-child(5) {
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: -685px 3px;
+        }
+      }
+      li:nth-child(6) {
+        margin-right: 0;
+        div {
+          background: url("../img/xz/bigSprite.png") no-repeat;
+          background-position: -858px 14px;
+        }
+      }
+    }
+  }
+  #item-4 {
+    height: 10.71rem;
+    background: url("../img/xz/bj/banner_04.jpg");
+    background-size: 100% 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p:nth-child(1) {
+      margin-top: 0.54rem;
+    }
+    p:nth-child(2) {
+      background: url(../img/xz/bigSprite.png);
+      background-position: -330px -189px;
+      margin-top: 0.46rem;
+      width: 7rem;
+      height: 0.7rem;
+      text-align: center;
+      line-height: 0.6rem;
+    }
+    p:nth-child(4) {
+      margin-top: 1rem;
+      background: url(../img/xz/bigSprite.png);
+      background-position: -330px -189px;
+      width: 7rem;
+      height: 0.7rem;
+      text-align: center;
+      line-height: 0.6rem;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 11rem;
+      li {
+        position: relative;
+        margin-left: 0.8rem;
+        margin-top: 0.7rem;
+        width: 1.4rem;
+        font-size: 0.23rem;
+        font-weight: 600;
+        color: #e9583d;
+        div {
+          position: absolute;
+          left: -0.79rem;
+          top: -0.2rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          background: url(../img/xz/bigSprite.png);
+          background-position: -176px -171px;
+        }
+      }
+    }
+    .good {
+      background: url(../img/xz/112.jpg);
+      height: 334px;
+      width: 833px;
+      background-size: 100% 100%;
+      margin-top: 27px;
+    }
+  }
+  #item-5 {
+    height: 25.72rem;
+    background: url("../img/xz/bj/banner_05.jpg");
+    background-size: 100% 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p:nth-child(1) {
+      margin-top: 1.46rem;
+    }
+    p:nth-child(2) {
+      margin-top: 0.11rem;
+    }
+    i:nth-child(3) {
+      margin-top: 0.28rem;
+    }
+    .item_5_1 {
+      display: flex;
+      flex-direction: row;
+      .img {
+        background: url(../img/xz/bigSprite.png);
+        background-position: 0 -293px;
+        height: 536px;
+        width: 294px;
+      }
+      ul {
+        margin-left: 50px;
+        li {
+          margin-top: 0.45rem;
+          height: 50px;
+          div {
+            display: inline-block;
+            float: left;
+          }
+          div:nth-child(1) {
+            width: 600px;
+            height: 70px;
+            background: url(../img/xz/yellow_01.jpg);
+            background-size: 100% 100%;
+            font-size: 0.25rem;
+            font-weight: 600;
+            color: #024d6c;
+            text-align: center;
+            line-height: 0.7rem;
+          }
+          div:nth-child(2) {
+            margin: -12px 0 0 56px;
+            background: url(../img/xz/pro_01.png);
+            width: 91px;
+            height: 91px;
+            background-size: 100%;
+            a {
+              display: block;
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        li:nth-child(1) {
+          margin-top: 93px;
+        }
+        li:nth-child(2) {
+          div:nth-child(2) {
+            background-position-y: -107px;
+          }
+        }
+        li:nth-child(3) {
+          div:nth-child(2) {
+            background-position-y: -107px;
+          }
+        }
+        li:nth-child(4) {
+          div:nth-child(2) {
+            background-position-y: -324px;
+          }
+        }
+      }
+    }
+    div:nth-child(5) {
+      background: url(../img/xz/111.png);
+      background-position-y: -90px;
+      width: 9rem;
+      height: 4.5rem;
+    }
+    .lqButton {
+      width: 1rem;
+      height: 0.3rem;
+      line-height: 0.25rem;
+      text-align: center;
+      color: #fff;
+      background: #d85f04;
+      box-shadow: 2px 2px 0 #6f1b00;
+      border-radius: 10px;
+    }
+    i:nth-child(7) {
+      margin-top: 0.59rem;
+    }
+    .item_5_2 {
+      margin-top: 0.5rem;
+      ul {
+        padding-left: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 10rem;
+        li {
+          margin-right: 0.18rem;
+          width: 3rem;
+          height: 4.05rem;
+          margin-top: 0.2rem;
+          border: 1px solid #fff;
+          border-radius: 10px;
+          div {
+            margin: 0.27rem;
+            width: 2.48rem;
+            height: 2.48rem;
+            border-radius: 10px;
+            background: url("../img/xz/bigSprite.png");
+            background-position: -12px -850px;
+          }
+          p {
+            padding-left: 28px;
+            font-size: 18px;
+            color: #fff;
+          }
+        }
+        li:nth-child(2) {
+          div {
+            background-position: -378px -850px;
+          }
+        }
+        li:nth-child(3) {
+          div {
+            background-position: -784px -921px;
+          }
+        }
+        li:nth-child(4) {
+          div {
+            background-position: -1175px -844px;
+          }
+        }
+        li:nth-child(5) {
+          div {
+            background: url(../img/xz/mouth_01.jpg);
+            background-size: 114% 112%;
+            background-position-x: -21px;
+          }
+        }
+        li:nth-child(6) {
+          div {
+            background-position: -1137px -1128px;
+          }
+        }
+      }
+    }
+  }
+  #item-6 {
+    height: 12.2rem;
+    background: url("../img/xz/bj/banner_06.jpg");
+    background-size: 100% 100%;
+    font-size: 0.16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul:nth-child(1){
+      margin-top: 0.6rem;
+      li{
+        display: inline-block;
+        float: left;
+        font-size: 0.4rem;
+        line-height: 0.01rem;
+        color: #ec5b3e;
+        font-weight: 600;
+        margin-left: 26px;
+      }
+      li:nth-child(odd){
+        width: 150px;
+        height: 3px;
+        background: #ec5b3e;
+      }
+    }
+    p:nth-child(2){
+      margin-top: 37px;
+    }
+    .QRcode{
+      margin-top: 50px;
+      height: 230px;
+      width: 230px;
+      background: url("../img/xz/qrcode_01.jpg");
+      background-size: 100% 100%;
+    }
+    p:nth-child(4){
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .renwu{
+      margin-top: 0.63rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 9rem;
+      li{
+        width: 4rem;
+        height: 3rem;
+        text-align: center;
+        div.nq ,div.nz{
+          background: url(../img/xz/bigSprite.png);
+          width: 3.6rem;
+          height: 3rem;
+          background-position: -359px -298px;
+        }
+        p{
+          color: #666;
+          font-size: 0.27rem;
+          font-weight: 600;
+          margin-top: 0.1rem;
+        }
+        .button{
+          margin-top: 0.3rem;
+          margin-bottom: 0.3rem;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          width: 4rem;
+          font-weight: 600;
+          font-size: 0.3rem;
+          color: #fff;
+          border-radius: 10px;
+          background: #ec5b3e;
+          box-shadow: 7px 11px 0 #d83d1e;
+          text-align: center;
+        }
+      }
+      li:nth-child(2){
+        margin-left: 100px;
+        div.nz{
+          background-position: -714px -298px;
+        }
+        .button{
+          margin-top: 0.3rem;
+          margin-bottom: 0.3rem;
+          height: 0.8rem;
+          line-height: 0.8rem;
+          width: 4rem;
+          font-weight: 600;
+          font-size: 0.3rem;
+          color: #fff;
+          border-radius: 10px;
+          background: #1c9aca;
+          box-shadow: 7px 11px 0 #024d6c;
+          text-align: center;
+        }
+      }
+      #red{
+        color: #ec5b3e;
+        font-weight: 500;
+      }
+      #blue{
+        color: #1c9aca;
+        font-weight: 500;
+      }
+    }
+  }
+}

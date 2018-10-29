@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #4900ae;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+.bobao-wapper1 {
+  position: relative;
+  width: 100%;
+}
+.bobao-wapper1 .bobao_time {
+  width: 510px;
+  height: 134px;
+  overflow: hidden;
+  margin: 19.5% auto;
+  margin-bottom: 6%;
+}
+.bobao-wapper1 .bobao_turnover {
+  padding: 0 21px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+.bobao-wapper1 #setCss1 {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.bobao-wapper2 {
+  position: relative;
+  width: 100%;
+}
+.bobao-wapper2 .bobao_time {
+  width: 510px;
+  height: 134px;
+  overflow: hidden;
+  margin: 19.5% auto;
+  margin-bottom: 6%;
+}
+.bobao-wapper2 .bobao_turnover {
+  padding: 0 21px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+.bobao-wapper2 #setCss2 {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 1367px) {
+  .bobao-wapper2 .bobao_time {
+    margin: 27.5% auto;
+    margin-bottom: 8%;
+  }
+  .bobao-wapper1 .bobao_time {
+    margin: 27.5% auto;
+    margin-bottom: 8%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .bobao-wapper2 .bobao_time {
+    margin: 37.5% auto;
+    margin-bottom: 10%;
+  }
+  .bobao-wapper1 .bobao_time {
+    margin: 37.5% auto;
+    margin-bottom: 10%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .bobao-wapper2 .bobao_time {
+    margin: 50.5% auto;
+    margin-bottom: 11%;
+  }
+  .bobao-wapper1 .bobao_time {
+    margin: 50.5% auto;
+    margin-bottom: 11%;
+  }
+}

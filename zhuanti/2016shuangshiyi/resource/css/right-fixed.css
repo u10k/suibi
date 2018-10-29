@@ -1,0 +1,101 @@
+.floatRight {
+    width: 160px;
+    height: 500px;
+    _height: 500px;
+    background: url(../../../../images/17xyx_right.png) no-repeat 5px -3px;
+    float: right;
+    display: none;
+    position: fixed;
+    _position: absolute;
+    right: 0;
+    top: 120px;
+    z-index: 998;
+}
+
+.floatRightIconA {
+    margin-left: 25px;
+    margin-top: 125%;
+}
+
+.floatRightIconA a {
+    display: block;
+    margin-top: 10px;
+    _margin-top: 10px;
+    text-align: center;
+    /*display: block;*/
+    /*text-align: center;*/
+    /*position: relative;*/
+    /*top: 52px;*/
+    /*margin-top: 2px;*/
+    /*_margin-top: 8px;*/
+}
+
+.zixunClick a:hover,
+.waitInput:hover,
+.floatRightIconA a:hover {
+    opacity: 0.8;
+    filter:Alpha(opacity=80);
+}
+.wwLeftC {
+    background: url(../../../../images/17xyx_right.png) no-repeat -170px -58px;
+    width: 120px;
+    height: 40px;
+    _width: 104px;
+    _height: 32px;
+}
+
+.wwLeftC:hover {
+    color: #d84620;
+}
+
+.qqLeftC {
+    background: url(../../../../images/17xyx_right.png) no-repeat -170px -11px;
+    width: 120px;
+    height: 40px;
+    _width: 104px;
+    _height: 32px;
+}
+
+.qqLeftC:hover {
+    color: #005ba2;
+}
+
+.wwLeftLC {
+    background: url(../../../../images/zixunicon.png) no-repeat -582px -499px;
+    width: 119px;
+    color: #333;
+}
+
+.wwLeftLC:hover {
+    background: url(../../../../images/zixunicon.png) no-repeat -582px -499px;
+    width: 119px;
+    color: #333;
+}
+
+.qqLeftLC {
+    background: url(../../../../images/zixunicon.png) no-repeat -582px -626px;
+    width: 119px;
+    color: #333;
+}
+
+.qqLeftLC:hover {
+    color: #333;
+}
+
+.companyNum2Div {
+    margin: 0 auto 0 25px;
+    /* padding: 0 15px; */
+    line-height: 22px;
+    position: absolute;
+    bottom: 11%;
+}
+.companyNum2Div p {
+    font-size: 13px;
+    color: #ffffff;
+}
+.companyNum2Div .companyNum2 {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    font-weight: bold;
+}

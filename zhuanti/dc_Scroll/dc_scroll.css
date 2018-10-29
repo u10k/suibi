@@ -1,0 +1,5 @@
+.dc-scroll{height:90px;overflow:hidden}
+.dc-scroll li{width:55px;height:90px;float:left;font:56px simhei;font-weight:600;line-height:90px;text-align:center;position:relative}
+.dc-scroll li div{position:absolute;width:100%;height:100%;background:url(scroll.png) no-repeat;background-size:100% 100%}
+.dc-scroll .s-top{transform:translateY(-100%)}
+.dc-scroll .s-bottom{transform:translateY(100%)}

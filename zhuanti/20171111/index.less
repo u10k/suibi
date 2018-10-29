@@ -1,0 +1,661 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  background-color: #4900ae;
+}
+ul, ol, li {
+  list-style: none;
+}
+a,a:focus,a:active{
+  text-decoration: none;
+}
+@keyframes myfirst{
+  0% {background:#ffe618;}
+  50% {background:#ff6113;}
+  100% {background:#ffe618;}
+}
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+/*优酷视频弹窗*/
+.video-back{
+  position: fixed;
+  width: 795px;
+  height: 449px;
+  background: black;
+  top: 48.1%;
+  left: 44.9%;
+  margin-top: -150px;
+  margin-left: -300px;
+  display: none;
+  z-index: 101;
+}
+.video-area{
+  float:left;
+  width: 795px;
+  height: 449px;
+  background:#fff;
+}
+.video-close{
+  position: absolute;
+  top:0;
+  right:0;
+  height:30px;
+  line-height: 30px;
+  width:30px;
+  color:#fff;
+  float:left;
+  text-align: center;
+  /*line-height: 50px;*/
+  background: rgba(0,0,0,0.3);
+  cursor: pointer;
+  display: block;
+}
+#shadow{
+  position: absolute;
+  height: 8168px;
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+  bottom:0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background:black;
+  z-index: 100;
+  display: none;
+}
+/*优酷视频弹窗*/
+#gaoshi{
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  .gaoshi-banner{
+    position: relative;
+    min-width: 1300px;
+    .banner{
+      width: 100%;
+      height: 611px;
+    }
+    .askme{
+      position: absolute;
+      left: 44%;
+      top: 83%;
+    }
+  }
+  .gs{
+    .center{
+      min-width: 1100px;
+      width: 1100px;
+      margin: 0 auto;
+      .title{
+        margin: 80px auto;
+        width: 515px;
+        height: 100px;
+        overflow: hidden;
+        background: url('./images/3.双11赢战神器/bt.png') no-repeat;
+        >a{
+          display: block;
+          margin: 44px auto;
+          width: 312px;
+          height: 54px;
+          text-align: center;
+          line-height: 54px;
+          border-radius: 40px;
+          font-size: 25px;
+          font-weight: 600;
+          color: #fff;
+          background: linear-gradient(to right, #ed04f5 ,#ed04f5, #8f17be, #8f17be, #ed04f5);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+    }
+  }
+  .gs-1{
+    margin-top: 20px;
+    .center{
+      >ul{
+        width: 1100px;
+        height: 163px;
+        span{
+          display: block;
+          float: left;
+          width: 100px;
+          height: 81px;
+          text-align: center;
+          font-size: 28px;
+          font-weight: 600;
+          color: #fff;
+          padding: 41px 15px;
+          p{
+            color: #fff;
+          }
+        }
+        li{
+          display: inline-block;
+          padding: 17px 0px;
+          width: 194px;
+          text-align: center;
+          margin-left: 3.4%;
+          p{
+            margin-left: 16%;
+            text-align: center;
+            margin-bottom: 7px;
+            color: #fff;
+          }
+          p:nth-child(2){
+            font-size: 17px;
+            margin-bottom: 29px;
+            color: #fff;
+          }
+          p:nth-child(3){
+            font-size: 19px;
+            font-weight: 600;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .gs-2{
+    margin-top: 20px;
+    .center{
+      .title{
+        >a{
+          background: linear-gradient(to right, #ed04f5 ,#ed04f5, #8f17be, #8f17be, #ed04f5);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      ul{
+        height: 420px;
+        li{
+          width: 248px;
+          height: 368px;
+          float: left;
+          margin-left: 36px;
+          >h3{
+            margin-top: 199px;
+            height: 39px;
+            text-align: center;
+            font-size: 23px;
+            line-height: 39px;
+            color: #fff;
+          }
+          >p{
+            margin-top: 5px;
+            height: 19px;
+            text-align: center;
+            line-height: 19px;
+            color: #fff;
+            &:nth-child(2){
+              margin-top: 30px;
+            }
+          }
+          &:nth-child(1){
+            margin-left: 0px;
+          }
+          &:nth-child(2){
+            margin-top: 40px;
+          }
+          &:nth-child(3){
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+  .gs-3{
+    margin-top: 20px;
+    .center{
+      .title{
+        >a{
+          background: linear-gradient(to right, #ffa200 ,#ffa200, #fff600, #fff600, #ffa200);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      >ul{
+        height: 400px;
+        li{
+          background-color: #f9d33a;
+          width: 298px;
+          height: 378px;
+          float: left;
+          border-radius: 25px;
+          margin-left: 9.3%;
+          &:nth-child(1){
+            margin-left: 0;
+          }
+          >div{
+            width: 274px;
+            height: 274px;
+            margin: 10px auto;
+            overflow: hidden;
+            border-radius: 25px;
+            position: relative;
+            >p{
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 39px;
+              line-height: 39px;
+              width: 100%;
+              background-color: rgba(0, 0, 0, 0.5);
+              color: #fff;
+              text-align: center;
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+          >a{
+            margin: 20px auto;
+            display: block;
+            width: 216px;
+            height: 52px;
+            line-height: 52px;
+            color: #993d00;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            position: relative;
+            user-select: none;
+            span{
+              right: 28px;
+              top: -1px;
+              position: absolute;
+              font-size: 14px;
+              color: #fff;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gs-4{
+    .center{
+      .title{
+        >a{
+          background: linear-gradient(to right, #01fee4 , #01fee4, #b900ff, #b900ff, #01fee4);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      >ul{
+        li{
+          margin: 30px auto;
+          width: 80%;
+          height: 615px;
+          background: #6b00d3;
+          overflow: hidden;
+          border-radius: 30px;
+          >p{
+            margin: 30px auto;
+            height: 53px;
+            line-height: 53px;
+            width: 76%;
+            font-size: 33px;
+            text-align: center;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 30px;
+            background: linear-gradient(to right,#01fee4 , #01fee4, #b900ff, #b900ff, #01fee4);
+            -webkit-background-size: 200% 100%;
+            -webkit-animation: masked-animation 3s infinite linear;
+          }
+          &:nth-child(1) div{
+            margin: 30px auto;
+            background: url("./images/5.双11制胜秘籍大揭露/组-27.png") no-repeat;
+            width: 797px;
+            height: 451px;
+            text-align: center;
+            line-height: 603px;
+          }
+          &:nth-child(2) div{
+            margin: 30px auto;
+            background: url("./images/5.双11制胜秘籍大揭露/组-26.png") no-repeat;
+            width: 797px;
+            height: 451px;
+            text-align: center;
+            line-height: 603px;
+          }
+        }
+      }
+    }
+  }
+  .gs-5{
+    .center{
+      .title{
+        >a{
+          background: linear-gradient(to right, #ff0ba1 , #ff0ba1, #99039a, #99039a, #ff0ba1);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      >ul{
+        height: 230px;
+        li{
+          background: url("./images/6.双11无敌干货大揭秘/组-1.png");
+          width: 200px;
+          height: 199px;
+          float: left;
+          margin-left: 25px;
+          a{
+            display: block;
+            margin: 4px auto;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+          }
+          p{
+            color: #5616b3;
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 4px;
+            &:nth-child(2){
+              margin-top: 67px;
+            }
+          }
+          &:nth-child(1){
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+  .gs-6{
+    margin-top: 30px;
+    .center{
+      div.zhanji{
+        background: url("./images/7.双11我们的战绩/组-15_79.png") no-repeat;
+        width: 852px;
+        height: 999px;
+        margin: 30px auto;
+        position: relative;
+        .item{
+          position: absolute;
+          >p{
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #ffc800;
+            font-size: 18px;
+            font-weight: 600;
+          }
+          >div{
+            padding: 20px;
+            p{
+              font-size: 18px;
+              color: #fff;
+              span{
+                font-size: 23px;
+                color: #ff00a2;
+                font-weight: 600;
+                -webkit-text-stroke: 1px #fff;
+              }
+            }
+          }
+          &:nth-child(1){
+            right: 5%;
+            top: 16%;
+            div{
+              background: url("./images/7.双11我们的战绩/组-28.png") no-repeat;
+              width: 309-40px;
+              height: 86-40px;
+            }
+          }
+          &:nth-child(2) {
+            top: 31%;
+            left: 13%;
+            div{
+              background: url("./images/7.双11我们的战绩/组-29.png") no-repeat;
+              width: 241-40px;
+              height: 86-40px;
+            }
+          }
+          &:nth-child(3){
+            right: 13%;
+            top: 44%;
+            div{
+              background: url("./images/7.双11我们的战绩/组-30.png") no-repeat;
+              width: 241-40px;
+              height: 86-40px;
+            }
+          }
+          &:nth-child(4){
+            top: 59%;
+            left: 6%;
+            div{
+              background: url("./images/7.双11我们的战绩/组-31.png") no-repeat;
+              width: 301-40px;
+              height: 86-40px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gs-7{
+    .center{
+      .title{
+        width: 598px;
+        background-size: 100% 100%;
+        >a{
+          width: 359px;
+          background: linear-gradient(to right, #ff0ba1 , #ff0ba1, #99039a, #99039a, #ff0ba1);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      >div:nth-child(2){
+        height: 832px;
+        width: 1101px;
+        background: url("./images/8.双11他们选择与我们并肩作战/组-33.png");
+      }
+    }
+  }
+  .gs-8{
+    .center{
+      .title{
+        width: 655px;
+        background-size: 100% 100%;
+        >a{
+          width: 406px;
+          background: linear-gradient(to right, #ffa200 , #ff7e00, #fff500, #fff500, #ffa200);
+          -webkit-background-size: 200% 100%;
+          -webkit-animation: masked-animation 3s infinite linear;
+        }
+      }
+      div{
+        img{
+          margin-bottom: 20px;
+          margin-right: 20px;
+          &:nth-child(4){
+            margin-right: 0;
+          }
+          &:nth-child(7){
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  .gs-9{
+    background: url("./images/10.结尾/专题页4_13.png");
+    height: 531px;
+    overflow: hidden;
+    .center{
+      >i{
+        display: block;
+        margin: 237px auto;
+        margin-bottom: 30px;
+        font-size: 50px;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        text-shadow: 7px 6px 0 #a700ff;
+      }
+      >a{
+        margin: 0 auto;
+        display: block;
+        height: 50px;
+        width: 150px;
+        background: #fff;
+        color: #e83ca3;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 50px;
+        box-shadow: 7px 6px 0 #a700ff;
+      }
+    }
+  }
+}
+/*咨询框*/
+.floatRight {
+  width: 150px;
+  height: 535px;
+  _height: 554px;
+  float: right;
+  display: none;
+  position: fixed;
+  _position: absolute;
+  right: 0;
+  top: 120px;
+  z-index: 999;
+  background: url(images/consult.png) no-repeat -7px -3px;
+}
+.online {
+  width: 145px;
+  height: 43px;
+  line-height: 136px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #FDFDFD;
+  text-align: center;
+  margin-top: 25px;
+}
+.floatRightIconA {
+  margin-left: 15px;
+
+}
+
+.floatRightIconA a {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 52px;
+  margin-top: 2px;
+  _margin-top: 8px;
+}
+
+.zixunClick a:hover,
+.waitInput:hover,
+.floatRightIconA a:hover {
+  opacity: 0.8;
+  filter:Alpha(opacity=80);
+}
+.wwLeftC {
+  width: 110px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -219px -127px;
+  height: 55px;
+  _height: 36px;
+
+}
+
+.wwLeftC:hover {
+  color: #d84620;
+}
+
+.qqLeftC {
+  width: 110px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -219px -238px;
+  height: 55px;
+  _height: 36px;
+}
+
+.qqLeftC:hover {
+  color: #005ba2;
+}
+.qqLeftD {
+  width: 112px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -187px -94px;
+  height: 45px;
+  _height:36px;
+}
+
+.qqLeftD:hover {
+  color: #005ba2;
+}
+
+.qqLeftE {
+  width: 112px;
+  _width: 104px;
+  background: url(images/consult.png) no-repeat -187px -197px;
+  height: 45px;
+  _height:36px;
+}
+.qqLeftE:hover {
+  color: #005ba2;
+}
+
+.wwLeftLC {
+  width: 119px;
+  color: #333;
+}
+
+.wwLeftLC:hover {
+  width: 119px;
+  color: #333;
+}
+
+.qqLeftLC {
+  width: 119px;
+  color: #333;
+}
+
+.qqLeftLC:hover {
+  color: #333;
+}
+
+.companyNum2Div {
+  padding: 0 12px;
+  line-height: 22px;
+  text-align: center;
+  margin: 60px 5px 0 auto;
+}
+.companyNum2Div p {
+  font-size: 12px;
+  color: #f8f515;
+}
+.companyNum2Div .companyNum2 {
+  font-size: 15px;
+  font-family: "微软雅黑";
+  /*color: #fff600;*/
+  color: #fff;
+  font-weight: bold;
+}
+.floatRight .kefu-back{
+  margin-top: 28px;
+  text-align: center;
+  color: #f8f515;
+}
+
+.floatRight .kefu-top{
+  margin-top: 13px;
+  text-align: center;
+  color: #ffffff;
+}

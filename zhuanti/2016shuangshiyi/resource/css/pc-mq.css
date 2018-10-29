@@ -1,0 +1,105 @@
+@media screen and (max-width:1700px) {
+	/*双11各时间段说明  START*/
+#item-2>.stage-1>.title,#item-2>.stage-4>.title{font-size:18px}#item-2>.stage-1>.date,#item-2>.stage-4>.date{margin-top:11px;font-size:14px}#item-2>.stage-2>.title,#item-2>.stage-3>.title{font-size:23px}#item-2>.stage-2>.date,#item-2>.stage-3>.date{margin-top:8px;font-size:18px}
+	/*双11各时间段说明  END*/
+
+	/*套餐介绍  START*/
+#item-3>.title{font-size:29px}#item-3>.package>.name{font-size:22px}#item-3>.package>.price_info{font-size:17px}#item-3>.package>.price_info>.text{padding:0 16px}#item-3>.go-to{font-size:20px}
+	/*套餐介绍  END*/
+
+	/*为什么选择大麦外包  START*/
+#item-4>.why-choose{font-size:32px;height:85px}#item-5>.stage{font-size:20px}#item-5>.stage>.text-2{margin-top:4px}
+	/*为什么选择大麦外包  END*/
+
+	/*历史战绩  START*/
+#item-7>.title{font-size:31px}#item-7>.go-to{font-size:20px}
+	/*历史战绩  END*/
+
+	/*合作客户   START*/
+	#item-8>.title{
+		font-size: 35px;
+	}
+	/*合作客户   END*/
+
+	/*最底部  START*/
+	#item-9>.title{
+		font-size: 45px;
+	}
+	#item-9>.go-to{
+		font-size: 20px;
+	}
+	/*最底部  END*/
+}
+
+
+
+
+@media screen and (max-width:1500px) {
+	/*双11各时间段说明  START*/
+#item-2>.stage-1>.title,#item-2>.stage-4>.title{font-size:16px}#item-2>.stage-1>.date,#item-2>.stage-4>.date{margin-top:9px;font-size:12px}#item-2>.stage-2>.title,#item-2>.stage-3>.title{font-size:21px}#item-2>.stage-2>.date,#item-2>.stage-3>.date{margin-top:7px;font-size:16px}
+	/*双11各时间段说明  END*/
+
+	/*套餐介绍  START*/
+#item-3>.title{font-size:26px}#item-3>.package>.name{font-size:20px}#item-3>.package>.price_info{font-size:15px}#item-3>.package>.price_info>.text{padding:0 14px}#item-3>.go-to{font-size:18px}
+	/*套餐介绍  END*/
+
+	/*为什么选择大麦外包  START*/
+#item-4>.why-choose{font-size:29px;height:70px}#item-5>.stage{font-size:18px}#item-5>.stage>.text-2{margin-top:3px}
+	/*为什么选择大麦外包  END*/
+
+	/*历史战绩  START*/
+#item-7>.title{font-size:28px}#item-7>.go-to{font-size:18px}
+	/*历史战绩  END*/
+
+	/*合作客户   START*/
+	#item-8>.title{
+		font-size: 32px;
+	}
+	/*合作客户   END*/
+
+	/*最底部  START*/
+	#item-9>.title{
+		font-size: 42px;
+	}
+	#item-9>.go-to{
+		font-size: 18px;
+	}
+	/*最底部  END*/
+}
+
+
+
+
+
+@media screen and (max-width:1300px) {
+	/*双11各时间段说明  START*/
+#item-2>.stage-1>.title,#item-2>.stage-4>.title{font-size:14px}#item-2>.stage-1>.date,#item-2>.stage-4>.date{margin-top:8px;font-size:10px}#item-2>.stage-2>.title,#item-2>.stage-3>.title{font-size:19px}#item-2>.stage-2>.date,#item-2>.stage-3>.date{margin-top:6px;font-size:14px}
+	/*双11各时间段说明  END*/
+
+	/*套餐介绍  START*/
+#item-3>.title{font-size:23px}#item-3>.package>.name{font-size:18px}#item-3>.package>.price_info{font-size:14px}#item-3>.package>.price_info>.text{padding:0 12px}#item-3>.go-to{font-size:16px}
+	/*套餐介绍  END*/
+
+	/*为什么选择大麦外包  START*/
+#item-4>.why-choose{font-size:26px;height:60px}#item-5>.stage{font-size:16px}#item-5>.stage>.text-2{margin-top:2px}
+	/*为什么选择大麦外包  END*/
+
+	/*历史战绩  START*/
+#item-7>.title{font-size:25px}#item-7>.go-to{font-size:16px}
+	/*历史战绩  END*/
+
+	/*合作客户   START*/
+	#item-8>.title{
+		font-size: 29px;
+	}
+	/*合作客户   END*/
+
+	/*最底部  START*/
+	#item-9>.title{
+		font-size: 39px;
+	}
+	#item-9>.go-to{
+		font-size: 16px;
+	}
+	/*最底部  END*/
+}

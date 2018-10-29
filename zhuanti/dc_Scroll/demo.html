@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>卷轴控件</title>
+<link rel="stylesheet" href="dc_scroll.css">
+<style>
+        html,body,div,ul,li{
+            margin:0;padding:0;
+        }
+        body{
+	background-color: rgba(47,47,47,1.00);
+        }
+        ul,li{
+            list-style: none;
+        }
+        .total-police-alert{
+	width: 500px;
+	height: 90px;
+	padding: 10px;
+	margin: 100px auto 0;
+	font: 36px "华文楷体";
+	line-height: 90px;
+	color: #fff;
+	box-shadow: -2px 2px 10px #000;
+	background-color: rgba(81,167,229,1.00);
+	border-radius: 10px;
+        }
+        .fl{
+            float:left;
+        }
+        .fr{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+<div class="total-police-alert">
+<div class="fl">卷轴控件</div>
+
+<ul class="dc-scroll fr">
+<li>
+<div class="s-on"></div>
+<div class="s-hide"></div>
+</li>
+<li>
+<div class="s-on"></div>
+<div class="s-hide"></div>
+</li>
+<li>
+<div class="s-on"></div>
+<div class="s-hide"></div>
+</li>
+<li>
+<div class="s-on"></div>
+<div class="s-hide"></div>
+</li>
+<li>
+<div class="s-on"></div>
+<div class="s-hide"></div>
+</li>
+</ul>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/dc_scroll2.js" type="text/javascript"></script>
+<script>
+    //卷轴模块
+    var scroll = new Scroll({
+        dom : $(".dc-scroll"),  //操作的节点
+        num : 5,                //几个卷轮
+//        delay : 3000            //时间间隔单位ms
+    });
+    num = 300
+    setInterval(function () {
+        var newNum = num++
+        var oldNum = Number(localStorage._old)
+        scroll.run(newNum,oldNum);
+        localStorage._old = newNum
+    }, 3000);
+
+</script>
+
+</body>
+</html>
