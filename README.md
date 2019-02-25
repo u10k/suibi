@@ -14,6 +14,8 @@ git push origin master 报错
 
 [有意思的网站](http://fff.cmiscm.com/#!/main)
 
+https://u10k.herokuapp.com/
+
 # 2019年计划
 - Python深入
 - 出国旅行
