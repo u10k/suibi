@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-//util.js
+// util.js
 export default {
     debounce(fn, delay = 300) {   //默认300毫秒
         var timer;
