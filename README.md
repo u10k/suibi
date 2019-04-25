@@ -190,3 +190,5 @@ https://u10k.herokuapp.com/
 # 2019年计划
 - Python深入
 - 出国旅行
+
+### [这些JavaScript编程黑科技，装逼指南，高逼格代码，让你惊叹不已](https://github.com/jawil/blog/issues/24)
